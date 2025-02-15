@@ -1,0 +1,116 @@
+/* ✅ Conteneur principal */
+.skills-container {
+  text-align: center;
+  padding: 3rem 2rem;
+  color: white;
+}
+
+/* ✅ Titre principal bien en haut */
+.skills-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+/* ✅ Grille des catégories */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* ✅ Chaque catégorie a une largeur adaptée */
+.skill-category {
+  flex: 1;
+  min-width: 280px;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #5f2c76ca;
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* ✅ Titre des catégories */
+.category-title {
+  font-size: 20px;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+/* ✅ Liste des compétences */
+.skill-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  justify-items: center;
+}
+
+/* ✅ Style des éléments */
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  border-radius: 8px;
+  width: 120px;
+  height: 120px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+/* ✅ Icônes */
+.skill-icon {
+  font-size: 3rem;
+}
+
+/* ✅ Texte des compétences */
+.skill-name {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.skill-description {
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+/* ✅ COULEURS DES ICONES */
+.text-orange {
+  color: #f97316;
+}
+
+.text-blue {
+  color: #3b82f6;
+}
+
+.text-blue-light {
+  color: rgb(103, 103, 255);
+}
+
+.text-yellow {
+  color: #eab308;
+}
+
+.text-purple {
+  color: #9333ea;
+}
+
+.text-pink {
+  color: #ec4899;
+}
+
+/* ✅ RESPONSIVE : 1 seule colonne sur mobile */
+@media (max-width: 768px) {
+  .skills-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

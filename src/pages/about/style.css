@@ -1,0 +1,95 @@
+.about-me {
+  color: white;
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.images-astroboy img{
+  width: 400px;
+  height: auto;
+}
+
+.about-text {
+  max-width: 500px;
+  text-align: left;
+}
+
+.about-text p {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #a56ef5; /* Violet */
+}
+
+.bold-highlight {
+  font-weight: bold;
+  color: #a56ef5; /* Violet */
+}
+
+.fomration
+{
+  color: white;
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.fomration-title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 90px;
+  text-align: center;
+}
+
+/* ✅ RESPONSIVE : 1 seule colonne sur mobile */
+@media (max-width: 768px) {
+
+  .about-container {
+    flex-direction: column;
+  }
+
+  .images {
+    flex-direction: row;
+  }
+
+  .about-img {
+    width: 100px;
+  }
+
+  .about-text {
+    max-width: 100%;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+  }
+}
