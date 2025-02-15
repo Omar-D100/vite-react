@@ -4,7 +4,7 @@ import BookiImg from '../../assets/Booki.webp';
 import OhMyFoodImg from '../../assets/oh-my-food.webp';
 import ArgentBankimg from '../../assets/Argent-Bank.webp';
 import NinaCarducciimg from '../../assets/Nina-Carducci.webp';
-import Kasaimg from '../../assets/kasa.webp';
+import Kasaimg from '../../assets/Kasa.webp';
 
 const Projects = () => {
   const projects = [
